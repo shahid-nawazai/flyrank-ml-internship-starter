@@ -54,7 +54,7 @@
 The model successfully identifies pages at risk of decay by balancing search demand against actual user engagement. 
 * **Feature Importances:** Historical click volume (`feb_clicks`) and average position (`feb_avg_position`) were the strongest drivers of the model's predictions.
 * **Interpretation:** The model effectively learned that high-impression pages with poor or slipping positions are at the highest risk of sharp month-over-month traffic drops. 
-
+![Model Artifacts](figures/capstone_artifacts.png)
 ## 7. Recommendation
 
 **The Action Playbook:** The output is a dataframe ranking pages by an `opportunity_score` (predicted decay probability × historical click volume). 
