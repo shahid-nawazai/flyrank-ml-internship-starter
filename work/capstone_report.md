@@ -5,6 +5,9 @@
 - **Repo:** https://github.com/shahid-nawazai/flyrank-ml-internship-starter
 - **Date:** July 2026
 
+## Abstract
+This capstone project tackles the challenge of identifying web pages at risk of traffic decay before significant organic revenue is lost. To scale content triage, I built a machine learning pipeline using an XGBoost classifier trained on historical search and engagement data. The model was evaluated against a strict heuristic baseline, utilizing a time-aware split to prevent data leakage. The resulting model achieved an ROC-AUC of 0.9929, significantly outperforming the baseline in ranking capability. Finally, the model outputs a ranked queue of pages, categorized by an opportunity score, allowing content teams to prioritize critical page refreshes efficiently.
+
 ## 1. Problem framing
 
 **Decision Supported:** Content Refresh & Optimization Allocation.
@@ -71,3 +74,6 @@ The model successfully identifies pages at risk of decay by balancing search dem
   * `xgboost` 
   * `scikit-learn`
   * `pandas` & `numpy`
+
+## 9. Acknowledgments
+Built on the FlyRank ML Internship dataset: [https://flyrank.ai](https://flyrank.ai)
