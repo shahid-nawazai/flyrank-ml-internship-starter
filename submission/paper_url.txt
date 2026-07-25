@@ -1,3 +1,5 @@
 PASTE-YOUR-DEPLOYED-PAPER-URL-HERE
 
 https://github.com/shahid-nawazai/flyrank-ml-internship-starter/blob/main/work/capstone_report.md
+
+[https://shahid-nawazai.github.io/flyrank-ml-internship-starter/work/capstone_report](https://shahid-nawazai.github.io/flyrank-ml-internship-starter/work/capstone_report)
